@@ -7,5 +7,15 @@ context('register', () => {
     cy.get('#theme-toggle-button').click()
 
   })
+
+  it('sign up', () => {
+  cy.get('a[href="/signup"] button.btn.btn-primary').click();
+})
+
+
+
+
+
+
 })
 
