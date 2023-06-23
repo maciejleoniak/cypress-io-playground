@@ -11,5 +11,5 @@ context('createNote', () => {
       cy.wait(3000);
       
       cy.get('.active').click();
-
+      cy.wait(3000);
     })})
